@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+
+    <title>Bleach.dev</title>
+
+    <meta name="description" content="I'm Bleach and this is my website.">
+    <meta name="keywords" content="Bleach, BleachHack, Bleach Development, bleach.dev, Developer, Develop">
+
+    <meta property="og:site_name" content="Luner">
+    <meta property="og:title" content="Luner development">
+    <meta property="og:url" content="https://LunerLA2.github.io/">
+    <meta property="og:image" content="https://bleach.dev/static/icon.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="I'm Luner and this is my website.">
+    <meta name="theme-color" content="#ebafcc">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://bleach.dev/static/icon.ico">
+    <link rel="stylesheet" href="Bleach.dev_files/main.css">
+    <link rel="stylesheet" href="Bleach.dev_files/index.css">
+</head>
+<body>
+    <h1 id="greeting">Bonjour :)</h1>
+
+    <div class="box" style="max-width: 525px;">
+        <nav>
+            <a id="about-nav" onclick="showContainer('about');" style="color: var(--header-color);">About Me</a>
+            <a id="projects-nav" onclick="showContainer('projects');">Projects</a>
+            <a id="contact-nav" onclick="showContainer('contact');">Contact</a>
+        </nav>
+
+        <div id="about" style="display: block;">
+            <img src="Bleach.dev_files/typing.avif" height="110" alt="[Profile Picture]">
+            <!-- About Me -->
+            <p>Hi! I'm <span style="color: #ffe0fe;">Luner</span>, and I'm a self-taught coder/developer<br>
+                that does cool things</p>
+            <p style="margin-bottom: 20px;">I have a passion for learning and teaching myself new skills<br>
+                and enjoy working on both personal &amp; collaborative projects.<br>
+                If you're interested in working on a project together<br>
+                or just want to chat, feel free to <a style="text-decoration: underline" onclick="showContainer('contact');">contact me</a>!</p>
+
+            <h3>Things I'm familiar with</h3>
+            <div class="links-compact">
+                <div class="box link-group">
+                    <p class="link-group-text">Java/JVM</p>
+                    <a class="glow-link" href="https://www.java.com/" title="Java"><img src="Bleach.dev_files/java.svg" alt="Java"></a>
+                    <a class="glow-link" href="https://kotlinlang.org/" title="Kotlin"><img src="Bleach.dev_files/kotlin.svg" alt="Kotlin"></a>
+                    <a class="glow-link" href="https://gradle.org/" title="Gradle"><img src="Bleach.dev_files/gradle.svg" alt="Gradle"></a>
+                    <a class="glow-link" href="https://maven.apache.org/" title="Maven"><img src="Bleach.dev_files/apache.svg" alt="Maven"></a>
+                    <a class="glow-link" href="https://eclipse.org/" title="Eclipse"><img src="Bleach.dev_files/eclipse.svg" alt="Eclipse"></a>
+                    <a class="glow-link" href="https://www.jetbrains.com/idea" title="IntelliJ"><img src="Bleach.dev_files/intellij-idea.svg" alt="IntelliJ"></a>
+                    <a class="glow-link" href="https://www.opengl.org/" title="OpenGL"><img src="Bleach.dev_files/opengl.svg" alt="OpenGL"></a>
+                </div>
+
+                <div class="box link-group">
+                    <p class="link-group-text">Web</p>
+                    <a class="glow-link" href="https://www.w3.org/TR/html5/" title="HTML"><img src="Bleach.dev_files/html-5.svg" alt="HTML"></a>
+                    <a class="glow-link" href="https://www.w3.org/TR/CSS/" title="CSS"><img src="Bleach.dev_files/css-3.svg" alt="CSS"></a>
+                    <a class="glow-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="Bleach.dev_files/javascript.svg" alt="JavaScript"></a>
+                    <a class="glow-link" href="https://www.jetbrains.com/webstorm/" title="Webstorm"><img src="Bleach.dev_files/webstorm.svg" alt="Webstorm"></a>
+                </div>
+
+                <div class="box link-group">
+                    <p class="link-group-text">Python</p>
+                    <a class="glow-link" href="https://www.python.org/" title="Python"><img src="Bleach.dev_files/python.svg" alt="Python"></a>
+                    <a class="glow-link" href="https://www.tensorflow.org/" title="TensorFlow"><img src="Bleach.dev_files/tensorflow.svg" alt="TensorFlow"></a>
+                </div>
+
+                <div class="box link-group">
+                    <p class="link-group-text">.NET (ew)</p>
+                    <a class="glow-link" href="https://visualstudio.microsoft.com/vs/" title="Visual Studio"><img src="Bleach.dev_files/visual-studio.svg" alt="Visual Studio"></a>
+                    <a class="glow-link" href="https://csharp.net/" title="C#"><img src="Bleach.dev_files/c-sharp.svg" alt="C#"></a>
+                </div>
+
+                <div class="box link-group">
+                    <p class="link-group-text">Other</p>
+                    <a class="glow-link" href="https://kernel.org//" title="Linux"><img src="Bleach.dev_files/linux.svg" alt="Linux"></a>
+                    <a class="glow-link" href="https://www.gnu.org/software/bash/" title="Bash"><img src="Bleach.dev_files/bash.svg" alt="Bash"></a>
+                    <a class="glow-link" href="https://git-scm.com/" title="Git"><img src="Bleach.dev_files/git.svg" alt="Git"></a>
+                    <a class="glow-link" href="https://github.com/" title="GitHub"><img src="Bleach.dev_files/github-mono.svg" alt="GitHub"></a>
+
+                    <a class="glow-link" href="https://aws.amazon.com/" title="AWS"><img src="Bleach.dev_files/aws.svg" alt="AWS"></a>
+                    <a class="glow-link" href="https://aws.amazon.com/ec2/" title="AWS EC2"><img src="Bleach.dev_files/aws-ec2.svg" alt="EC2"></a>
+                    <a class="glow-link" href="https://aws.amazon.com/s3/" title="AWS S3"><img src="Bleach.dev_files/aws-s3.svg" alt="S3"></a>
+
+                    <a class="glow-link" href="https://www.adobe.com/products/photoshop.html" title="Photoshop"><img src="Bleach.dev_files/adobe-photoshop.svg" alt="Photoshop"></a>
+                    <a class="glow-link" href="https://www.adobe.com/products/audition.html" title="Audition"><img src="Bleach.dev_files/adobe-audition.svg" alt="Audition"></a>
+                    <a class="glow-link" href="https://www.adobe.com/products/premiere.html" title="Premiere"><img src="Bleach.dev_files/adobe-premiere_pro.svg" alt="Premiere"></a>
+                </div>
+            </div>
+
+            <div class="hr"></div>
+
+            <h4>Follow me (or else)</h4>
+            <div class="links-wide">
+                <a class="color-link" href="https://github.com/BleachDev"><img src="Bleach.dev_files/github.svg"></a>
+                <a class="color-link" href="https://discord.gg/invite/bleach-s-projects-620600892718055434"><img src="Bleach.dev_files/discord.svg"></a>
+                <a class="color-link" href="https://twitter.com/bleach_dev"><img src="Bleach.dev_files/twitter.svg"></a>
+                <a class="color-link" href="https://youtube.com/@bleachdev"><img src="Bleach.dev_files/youtube.svg"></a>
+            </div>
+        </div>
+
+        <div id="projects" style="display: none;">
+            <details>
+                <summary class="project-header">Webapps</summary>
+
+                <div class="box project-box">
+                    <img src="Bleach.dev_files/tetris.webp">
+                    <h3>Tetris Chaos Edition</h3>
+                    <p>Totally normal tetris featuring all the very normal pieces. <a href="https://tetris.bleach.dev/">Play Online</a></p>
+                    <div class="links-wide">
+                        <a class="color-link" href="https://tetris.bleach.dev/"><img src="Bleach.dev_files/home.svg"></a>
+                        <a class="color-link" href="https://github.com/BleachDev/tetris.bleach.dev"><img src="Bleach.dev_files/github.svg"></a>
+                        <a class="color-link" onclick="openToast('tetris');"><img src="Bleach.dev_files/info.svg"></a>
+                    </div>
+                </div>
+
+                <div style="height: 20px;"></div>
+
+                <div class="box project-box">
+                    <img src="Bleach.dev_files/minesweeper.webp">
+                    <h3>Minesweeper Duels</h3>
+                    <p>Two player multiplayer minesweeper where you duel to the death. <a href="https://ms.bleach.dev/">Play Online</a></p>
+                    <div class="links-wide">
+                        <a class="color-link" href="https://ms.bleach.dev/"><img src="Bleach.dev_files/home.svg"></a>
+                        <a class="color-link" href="https://github.com/BleachDev/minesweeper-duels"><img src="Bleach.dev_files/github.svg"></a>
+                        <a class="color-link" onclick="openToast('minesweeper');"><img src="Bleach.dev_files/info.svg"></a>
+                    </div>
+                </div>
+
+                <div style="height: 20px;"></div>
+
+                <div class="box project-box">
+                    <img src="Bleach.dev_files/minecraft4k.webp">
+                    <h3>Minecraft 4K Multiplayer</h3>
+                    <p>Minecraft 4K with Online Multiplayer support in under 8KB. <a href="https://4k.bleach.dev/">Play Online</a></p>
+                    <div class="links-wide">
+                        <a class="color-link" href="https://4k.bleach.dev/"><img src="Bleach.dev_files/home.svg"></a>
+                        <a class="color-link" href="https://github.com/BleachDev/4k-mp"><img src="Bleach.dev_files/github.svg"></a>
+                        <a class="color-link" onclick="openToast('minecraft4k');"><img src="Bleach.dev_files/info.svg"></a>
+                    </div>
+                </div>
+
+                <div style="height: 20px;"></div>
+
+                <div class="box project-box">
+                    <img src="Bleach.dev_files/icon.webp">
+                    <h3>OSM Changeset Visualizer</h3>
+                    <p>Modernized and serverless version of <a href="https://osmhv.openstreetmap.de/">osmhv</a><br>for visualizing OpenStreetMap changesets.</p>
+                    <div class="links-wide">
+                        <a class="color-link" href="https://bleach.dev/osmcv.html"><img src="Bleach.dev_files/home.svg"></a>
+                        <a class="color-link" href="https://github.com/BleachDev/bleach.dev/blob/main/osmcv.html"><img src="Bleach.dev_files/github.svg"></a>
+                        <a class="color-link" onclick="openToast('osmcv');"><img src="Bleach.dev_files/info.svg"></a>
+                    </div>
+                </div>
+            </details>
+
+            <div class="hr"></div>
+
+            <details>
+                <summary class="project-header">Minecraft Mods</summary>
+
+                <div class="box project-box">
+                    <img src="Bleach.dev_files/bh.webp">
+                    <h3>BleachHack</h3>
+                    <p>BleachHack is a utility mod for Minecraft originally made for <a href="https://endcrystal.me/">endcrystal.me</a>.</p>
+                    <div class="links-wide">
+                        <a class="color-link" href="https://bleachhack.org/"><img src="Bleach.dev_files/home.svg"></a>
+                        <a class="color-link" href="https://github.com/BleachDev/BleachHack"><img src="Bleach.dev_files/github.svg"></a>
+                        <a class="color-link" onclick="openToast('bh');"><img src="Bleach.dev_files/info.svg"></a>
+                    </div>
+                </div>
+
+                <div style="height: 20px;"></div>
+
+                <div class="box project-box">
+                    <img src="Bleach.dev_files/oneblock.webp">
+                    <h3>One Block At A Time</h3>
+                    <p>The 22w13a Minecraft April fools update ported to other versions.</p>
+
+                    <div class="links-wide">
+                        <a class="color-link" href="https://modrinth.com/mod/oneblock"><img src="Bleach.dev_files/home.svg"></a>
+                        <a class="color-link" href="https://github.com/BleachDev/oneblock"><img src="Bleach.dev_files/github.svg"></a>
+                        <a class="color-link" onclick="openToast('oneblock');"><img src="Bleach.dev_files/info.svg"></a>
+                    </div>
+                </div>
+
+                <div style="height: 20px;"></div>
+
+                <div class="box project-box">
+                    <img src="Bleach.dev_files/mcosm.webp">
+                    <h3>McOSM</h3>
+                    <p>A Mod that imports OpenStreetMap data into Minecraft.</p>
+
+                    <div class="links-wide">
+                        <a class="color-link" href="https://modrinth.com/mod/mcosm"><img src="Bleach.dev_files/home.svg"></a>
+                        <a class="color-link" href="https://github.com/BleachDev/mcosm"><img src="Bleach.dev_files/github.svg"></a>
+                        <a class="color-link" onclick="openToast('mcosm');"><img src="Bleach.dev_files/info.svg"></a>
+                    </div>
+                </div>
+            </details>
+
+            <div class="hr"></div>
+
+            <details>
+                <summary class="project-header">Others/Misc</summary>
+
+                <div class="box project-box">
+                    <img src="Bleach.dev_files/rainy.webp">
+                    <h3>Rainy (Garmin app)</h3>
+                    <p>Weather/Celestial app for Garmin watches.</p>
+
+                    <div class="links-wide">
+                        <a class="color-link" href="https://apps.garmin.com/apps/e7c0c39c-cb76-475f-b5bc-7811b0fee104"><img src="Bleach.dev_files/home.svg"></a>
+                        <a class="color-link" href="https://github.com/BleachDev/Rainy"><img src="Bleach.dev_files/github.svg"></a>
+                        <a class="color-link" onclick="openToast('rainy');"><img src="Bleach.dev_files/info.svg"></a>
+                    </div>
+                </div>
+
+                <div style="height: 20px;"></div>
+
+                <div class="box project-box">
+                    <img src="Bleach.dev_files/pc98.webp">
+                    <h3>PC-98 To USB Converter</h3>
+                    <p>PC-98 To USB keyboard converter using an Arduino.</p>
+
+                    <div class="links-wide">
+                        <a class="inactive-link"><img src="Bleach.dev_files/home.svg"></a>
+                        <a class="color-link" href="https://github.com/BleachDev/pc98-usb"><img src="Bleach.dev_files/github.svg"></a>
+                        <a class="color-link" onclick="openToast('pc98');"><img src="Bleach.dev_files/info.svg"></a>
+                    </div>
+                </div>
+
+                <div style="height: 20px;"></div>
+
+                <div class="box project-box">
+                    <img src="Bleach.dev_files/icon.webp">
+                    <h3>????</h3>
+                    <p style="color: var(--header-color);">more projects coming soon. probably.</p>
+                    <div class="links-wide">
+                        <a class="inactive-link"><img src="Bleach.dev_files/home.svg"></a>
+                        <a class="inactive-link"><img src="Bleach.dev_files/github.svg"></a>
+                        <a class="inactive-link"><img src="Bleach.dev_files/info.svg"></a>
+                    </div>
+                </div>
+
+                <p>guh?! <img src="Bleach.dev_files/1x.avif" width="16"> unfinished section!</p>
+            </details>
+        </div>
+
+        <div id="contact" style="display: none;">
+            <p>If you have any questions, feel free to contact me<br>
+                via Discord (<a href="https://discord.gg/invite/bleach-s-projects-620600892718055434">Join my server!!</a>) or Email.</p>
+            <p>Discord: <span style="color: #ffe0fe">bleaching</span></p>
+            <p>Email: <span style="color: #ffe0fe">me@bleach.dev</span></p>
+        </div>
+    </div>
+
+    <button id="cat-button" onclick="cat();" onmouseenter="document.getElementById('cat-text').style.display = 'block'" onmouseleave="document.getElementById('cat-text').style.display = 'none'">
+        <img src="Bleach.dev_files/cat.webp" alt="Summon Cat" width="48" draggable="false">
+        <p id="cat-text" style="font-size: 12px; margin-top: -7px; color: #ccc; display: none;">Summon Cat</p>
+    </button>
+
+    <!-- Project popup boxes -->
+
+    <div class="toast" id="toast-tetris">
+        <div class="box project-box">
+            <img src="Bleach.dev_files/tetris.webp">
+            <h1>Tetris Chaos Edition</h1>
+            <p>Tetris Chaos Edition is a variant of the<br>
+                classic Tetris game but featuring increasingly absurd pieces.</p>
+            <p><a href="https://4k.bleach.dev/">Play Online!</a></p>
+            <p class="grey-text">Maintained: 2023</p>
+            <div class="hr"></div>
+            <p>Showcase of the Versus mode:</p>
+            <video class="toast-img" src="data:" srcunloaded="https://user-images.githubusercontent.com/36450388/256256594-ee1108a5-e708-428a-8a08-b42938a3f831.mp4" controls="controls"></video>
+        </div>
+    </div>
+
+    <div class="toast" id="toast-minesweeper">
+        <div class="box project-box">
+            <img src="Bleach.dev_files/minesweeper.webp">
+            <h1>Minesweeper Duels</h1>
+            <p>Minesweeper Duels is a two-player version of the<br>
+                classic Minesweeper game where you battle to the death!</p>
+            <p>Features fast-paced action packed thrilling gameplay and an online leaderboard.</p>
+            <p class="grey-text">Maintained: 2023</p>
+            <div class="hr"></div>
+            <video class="toast-img" src="data:" srcunloaded="https://user-images.githubusercontent.com/36450388/223849461-310939cc-554d-4876-8391-6762e788e199.mp4" controls="controls"></video>
+        </div>
+    </div>
+
+    <div class="toast" id="toast-minecraft4k">
+        <div class="box project-box">
+            <img src="Bleach.dev_files/minecraft4k.webp">
+            <h1>Minecraft 4K</h1>
+            <p>The classic <a href="https://minecraft.fandom.com/wiki/Minecraft_4k">Minecraft 4K</a> with Online Multiplayer support in under 8KB.<br>
+                Features both a JAR version (which is under 8KB) and a web which you can <a href="https://4k.bleach.dev/">Play Online</a>.</p>
+            <p class="grey-text">Maintained: 2022</p>
+            <div class="hr"></div>
+            <video class="toast-img" src="data:" srcunloaded="https://user-images.githubusercontent.com/36450388/199333801-ebf0c6b3-0c59-49bb-8b7a-9e7501e9942c.mp4" controls="controls"></video>
+        </div>
+    </div>
+
+    <div class="toast" id="toast-osmcv">
+        <div class="box project-box">
+            <img src="Bleach.dev_files/icon.webp">
+            <h1>OSM Changeset Visualizer</h1>
+            <p>Modernized and serverless version of <a href="https://osmhv.openstreetmap.de/">osmhv</a><br>for visualizing OpenStreetMap changesets.</p>
+            <p class="grey-text">Maintained: 2022</p>
+            <div class="hr"></div>
+            <img class="toast-img" src="data:" srcunloaded="static/img/previews/osmcv.webp">
+        </div>
+    </div>
+
+    <div class="toast" id="toast-bh">
+        <div class="box project-box">
+            <img src="Bleach.dev_files/bh.webp">
+            <h1>BleachHack</h1>
+            <p>BleachHack is a utility mod for Minecraft originally made for <a href="https://endcrystal.me/">endcrystal.me</a> in 2019,
+                it was one of the first 1.14+ utility mods and was a big part of kickstarting the <a href="https://fabricmc.net/">Fabric</a> and open-source era of Minecraft clients.</p>
+            <p>BleachHack has over 400k downloads and <a href="https://github.com/BleachDev/BleachHack/graphs/contributors">590k Git changes</a>.</p>
+            <p class="grey-text">Maintained: 2019-2023</p>
+            <div class="hr"></div>
+            <img class="toast-img" src="data:" srcunloaded="https://camo.githubusercontent.com/9cc93c4164f8265bda9fa90d144fd2b7b9c79d29e5777adc03e10fd6475cbd8d/68747470733a2f2f7265732e626c656163686861636b2e6f72672f696d616765732f52656e64657253686f77636173652e6a7067">
+        </div>
+    </div>
+
+    <div class="toast" id="toast-oneblock">
+        <div class="box project-box">
+            <img src="Bleach.dev_files/oneblock.webp">
+            <h1>One Block At A Time</h1>
+            <p>The 2022/22w13a Minecraft April fools update ported to other versions (1.8.9 and 1.12.2 using <a href="https://legacyfabric.net/">Legacy Fabric</a>)</p>
+            <p class="grey-text">Maintained: 2022</p>
+            <div class="hr"></div>
+            <img class="toast-img" src="data:" srcunloaded="https://i.imgur.com/Gtun0VC.png">
+        </div>
+    </div>
+
+    <div class="toast" id="toast-mcosm">
+        <div class="box project-box">
+            <img src="Bleach.dev_files/mcosm.webp">
+            <h1>McOSM</h1>
+            <p>A Mod that imports OpenStreetMap data into Minecraft, 
+fully compatible with CubicChunks, Terra121 and the Build The Earth map 
+projection.</p>
+            <p>Created for <a href="https://buildtheearth.net/">BuildTheEarth</a> if it wasn't obvious.</p>
+            <p class="grey-text">Maintained: 2020-2022</p>
+            <div class="hr"></div>
+            <img class="toast-img" src="data:" srcunloaded="https://i.imgur.com/H15BxA5.jpg">
+            <img class="toast-img" src="data:" srcunloaded="https://i.imgur.com/GvREQrZ.jpg">
+        </div>
+    </div>
+
+    <div class="toast" id="toast-rainy">
+        <div class="box project-box">
+            <img src="Bleach.dev_files/rainy.webp">
+            <h1>Rainy (Garmin app)</h1>
+            <p>A Weather app I made because I wanted to make something for my watch.</p>
+            <p>The app has much more data (Weather, UV, Aurora, Sun/Moon
+ Info, Solar Eclipse, Water Temperatures, +more) and is prettier than 
+the default Garmin weather app.</p>
+            <p class="grey-text">Maintained: 2024</p>
+            <div class="hr"></div>
+            <img class="toast-img" src="data:" srcunloaded="https://services.garmin.com/appsLibraryExternalServices/api/screenshots/dcaf6ad5-e719-4d60-9cca-0de528886df1">
+        </div>
+    </div>
+
+    <div class="toast" id="toast-pc98">
+        <div class="box project-box">
+            <img src="Bleach.dev_files/pc98.webp">
+            <h1>PC-98 To USB Converter</h1>
+            <p>A converter that allows you to connect PC-98 keyboards to modern computers using an Arduino.</p>
+            <p class="grey-text">Maintained: 2022-2023</p>
+            <div class="hr"></div>
+            <video class="toast-img" src="data:" srcunloaded="https://user-images.githubusercontent.com/36450388/248315883-0ff3c7af-e43e-4396-b125-c07a183484c3.mp4" controls="controls"></video>
+        </div>
+    </div>
+
+    <script>
+        const greetings = [ "Hi", "Bonjour", "Hola", "Ciao", "γεια", "Zdravo", "Hallo", "Salut", "Hei", "Cześć", "Привет", "你好", "Sveiki", "Merhaba", "Ahoj", "やあ", "سلام", "Xin chào" ];
+        const containers = [ "about", "projects", "contact" ];
+
+        let currentGreeting = 0;
+        let currentTick = 0;
+
+        // Steve apple and Bill microsoft browser no avif :(
+        if (/iPad|iPhone|iPod|Edg/.test(navigator.userAgent)) {
+            for (const i of document.getElementsByTagName("img")) {
+                if (i.src.endsWith(".avif")) i.src = i.src.slice(0, -5) + ".webp";
+            }
+        }
+
+        showContainer("about");
+
+        setInterval(function() {
+            let greeting = document.getElementById("greeting").innerHTML;
+
+            if (currentTick === 14) {
+                if (greeting.length === 3) {
+                    currentGreeting = (currentGreeting + 1) % greetings.length;
+                    currentTick = 0;
+                } else {
+                    document.getElementById("greeting").innerHTML = greeting.substring(0, greeting.length - 4) + " :)";
+                }
+            } else if (greeting.length - 3 < greetings[currentGreeting].length) {
+                document.getElementById("greeting").innerHTML = greetings[currentGreeting].substring(0, greeting.length - 2) + " :)";
+            } else {
+                currentTick++;
+            }
+        }, 155);
+
+        for (let t of document.getElementsByClassName("toast")) {
+             t.onclick = e => {
+                if (e.target === t) {
+                    t.style.display = "none";
+                }
+            };
+        }
+        document.onkeydown = e => {
+            if (e.key === "Escape") {
+                for (let t of document.getElementsByClassName("toast")) {
+                    t.style.display = "none";
+                }
+            }
+        };
+
+        function showContainer(container) {
+            for (let i = 0; i < containers.length; i++) {
+                const sel = containers[i] === container;
+                document.getElementById(containers[i]).style.display = sel ? "block" : "none";
+                document.getElementById(containers[i] + "-nav").style.color = sel ? "var(--header-color)" : null;
+            }
+        }
+
+        function openToast(toast) {
+            const e = document.getElementById("toast-" + toast);
+            for (const img of e.getElementsByClassName("toast-img")) {
+                img.src = img.getAttribute("srcunloaded");
+            }
+
+            e.style.display = "flex";
+        }
+
+        // Funny cat go meow code
+
+        // 2D Pixel Art Cat Sprites by Elthen under CC 4.0
+        // https://elthen.itch.io/2d-pixel-art-cat-sprites
+        // Cat Meow from Wikimedia Commons under CC 3.0
+        // (The original uploader was Dcrosby at English Wikipedia., CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons)
+        const CAT_FRAMES = [ 4, 4, 4, 4, 8, 8, 4, 6, 7, 8 ];
+        function cat() {
+            const id = Math.floor(Math.random() * 100000000);
+
+            const audio = document.createElement("audio");
+            audio.id = "cat-audio-" + id;
+            audio.volume = 0.2;
+            audio.src = "https://upload.wikimedia.org/wikipedia/commons/6/62/Meow.ogg";
+
+            const img = document.createElement("img");
+            img.id = "cat-" + id;
+            img.src = "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="; // 1x1 transparent image
+            img.style.background = "url(/static/img/cats96.webp)";
+            img.style.width = "96px";
+            img.style.height = "96px";
+            img.style.position = "absolute";
+            img.style.userSelect = "none";
+            img.draggable = false;
+            img.style.cursor = "grabbing";
+
+            let x = Math.floor((window.innerWidth - 96) * Math.random());
+            let y = Math.floor((window.innerHeight - 96) * Math.random());
+            img.style.left = x + "px";
+            img.style.top = y + "px";
+
+            document.body.insertBefore(img, document.getElementById("toast-tetris"));
+            audio.play();
+
+            let tick = 0;
+
+            let goal = 0;
+            let finished = 4;
+            let goalX, goalY;
+
+            img.onclick = () => {
+                goal = 5;
+                const goalPos = generateGoal(x, y);
+                goalX = goalPos[0];
+                goalY = goalPos[1];
+                audio.play();
+            }
+
+            setInterval(() => {
+                if ((goal === 4 || goal === 5) && x !== goalX && y !== goalY) {
+                    const speed = goal === 4 ? 10 : 15;
+                    x = goalX === x ? x : goalX < x ? Math.max(goalX, x - speed) : Math.min(goalX, x + speed);
+                    y = goalY === y ? y : goalY < y ? Math.max(goalY, y - speed) : Math.min(goalY, y + speed);
+                    img.style.left = x + "px";
+                    img.style.top = y + "px";
+
+                    if (goalX < x) {
+                        img.style.transform = "scaleX(-1)";
+                    } else if (goalX > x) {
+                        img.style.removeProperty("transform");
+                    }
+
+                    img.style.backgroundPosition = `-${(tick % CAT_FRAMES[goal]) * 96}px -${goal * 96}px`;
+                    finished = tick;
+                } else if (tick <= finished) {
+                    img.style.backgroundPosition = `-${(tick % CAT_FRAMES[goal]) * 96}px -${goal * 96}px`;
+                } else {
+                    goal = Math.floor(Math.random() * 10);
+                    finished = tick + CAT_FRAMES[goal] * Math.floor(Math.random() * 6);
+
+                    if (goal === 4 || goal === 5) {
+                        const goalPos = generateGoal(x, y);
+                        goalX = goalPos[0];
+                        goalY = goalPos[1];
+                    } else if (goal === 2) {
+                        audio.play();
+                    }
+                }
+
+                tick++;
+            }, 200);
+        }
+
+        function generateGoal(x, y) {
+            let goalX = Math.abs(x + Math.floor((Math.random() - 0.5) * 600));
+            let goalY = Math.abs(y + Math.floor((Math.random() - 0.5) * 600));
+            if (goalX >= window.innerWidth - 96)
+                goalX = Math.floor(window.innerWidth - 96 - Math.random() * 200);
+            if (goalY >= window.innerHeight - 96)
+                goalY = Math.floor(window.innerHeight - 96 - Math.random() * 200);
+            return [goalX, goalY];
+        }
+    </script>
+
+</body></html>
